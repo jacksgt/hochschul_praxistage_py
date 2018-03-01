@@ -24,6 +24,8 @@ class RomanConverterTest(unittest.TestCase):
         self.assertEqual('X', convert(10), "Number 10 in roman numnerals (X)")
     def test_convert_test50(self):
         self.assertEqual('L', convert(50), "Number 50 in roman numerals (L)")
+    def test_convert_test50(self):
+        self.assertEqual('XL', convert(40), "Number 40 in roman numerals (XL)")
 
 
 
