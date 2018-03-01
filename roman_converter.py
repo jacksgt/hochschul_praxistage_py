@@ -6,7 +6,10 @@ def convert(input):
     g = input // 10
     r = input % 10
 
-    output = g * "X" + r * "I"
+    l = g // 5
+    x = g % 5
+
+    output = l * "L" + x * "X" + r * "I"
     return output
 
 
