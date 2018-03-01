@@ -19,6 +19,9 @@ class RomanConverterTest(unittest.TestCase):
         self.assertEqual('I', convert(1), "Number 1 in roman numnerals (I)")
     def test_convert_testX(self):
         self.assertEqual('X', convert(10), "Number 10 in roman numnerals (X)")
+    def test_convert_test50(self):
+        self.assertEqual('L', convert(50), "Number 50 in roman numerals (L)")
+
 
 
 if __name__ == "__main__":
