@@ -3,13 +3,13 @@ import unittest
 
 def convert(input):
     output = ""
-    g = input // 10
-    r = input % 10
+    x = input // 10
+    i = input % 10
 
-    l = g // 5
-    x = g % 5
+    l = x // 5
+    x = x % 5
 
-    output = l * "L" + x * "X" + r * "I"
+    output = l * "L" + x * "X" + i * "I"
     return output
 
 
