@@ -2,7 +2,12 @@ import unittest
 
 
 def convert(input):
-    return "I"
+    output = ""
+    g = input // 10
+    r = input % 10
+
+    output = g * "X" + r * "I"
+    return output
 
 
 class RomanConverterTest(unittest.TestCase):
